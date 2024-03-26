@@ -141,7 +141,7 @@ systemctl status openvpn@${PROJECT_NAME}
 
 Change port to yours
 ```sh
-ufw allow 6543
+ufw allow 6543 comment openvpn
 ```
 
 ## Configure the script
