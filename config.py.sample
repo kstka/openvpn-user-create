@@ -1,0 +1,10 @@
+PROJECT_NAME = 'vpn-server'
+RSA_DIR = f"/etc/openvpn/{PROJECT_NAME}/easy-rsa"
+CCD_DIR = f"/etc/openvpn/{PROJECT_NAME}-ccd"
+CONF_DIR = "client-configurations"
+CONF_PREFIX = f"{PROJECT_NAME}-"
+NETWORK_PREFIX = "10.10.10."
+REMOTE_SERVER = 'example.com'
+REMOTE_PORT = '6543'
+TEMPLATE_FILE = 'template.ovpn'
+
